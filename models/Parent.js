@@ -3,6 +3,14 @@ const Child = require('./child');
 
 const parent_schema = new mongoose.Schema({
 
+    blog_id: {
+        type: Number,
+        required: [true, 'A tour must have a d']
+    },
+    user_id: {
+        type: Number,
+        required: [true, 'A tour must have a d']
+    },
     comment_id: {
         type: Number,
         required: [true, 'A tour must have a d']

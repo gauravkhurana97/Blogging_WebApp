@@ -10,6 +10,10 @@ const sub_schema = new mongoose.Schema({
         type: String,
         required: [true, 'A tour must have a difficulty'],
     },
+    user_id: {
+        type: Number,
+        required: [true, 'A tour must have a d']
+    },
     likes: {
         type: Number,
         required: [true, 'A tour must have a duraon']
