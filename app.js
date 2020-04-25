@@ -1,11 +1,18 @@
 const express = require('express');
 const morgan = require('morgan');
 
-const userRouter = require('./routes/userRoutes');
+const commentRouter = require('./routes/commentRouter');
+
 
 const app = express();
 
-app.use('/api/v1/users', userRouter);
+if (process.env.NODE_ENV === 'development') {
+    app.use(morgan('dev'));
+}
+
+app.use(express.json());
+
+app.use('/api/v1/comments', commentRouter);
 
 
 module.exports = app;
