@@ -1,0 +1,24 @@
+{
+  "name": "officemembersbloggingsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "mongodb-uri": "^0.9.7",
+    "mongoose": "^5.5.2",
+    "morgan": "^1.9.1",
+    "node-fetch": "^2.6.0",
+    "slugify": "^1.3.4",
+    "validator": "^10.11.0"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
