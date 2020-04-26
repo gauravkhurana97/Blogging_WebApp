@@ -3,9 +3,16 @@ const ParentComment = require('../models/Parent');
 const catchAsync = require('./../utils/catchAsync');
 
 
-exports.getComments = catchAsync(async (req, res, next) => {
-  const commentTree = await ParentComment.find();
-  console.log("hello");
+
+
+exports.getallCommentofBlog = catchAsync(async (req, res, next) => {
+
+  console.log(req.params.blog_id);
+
+  const commentTree = await ParentComment.find({
+    blog_id: req.params.blog_id
+  }).populate('first_childrens');
+
   res.status(200).json({
     status: 'success',
     data: {
@@ -16,7 +23,10 @@ exports.getComments = catchAsync(async (req, res, next) => {
 
 exports.getComment = catchAsync(async (req, res, next) => {
 
-  const commentTree = await ParentComment.findById(req.params.id).populate('first_childrens');
+  const commentTree = await ParentComment.findById({
+    "_id": req.params.id,
+    "blog_id": req.params.blog_id
+  }).populate('first_childrens');
 
   res.status(200).json({
     status: 'success',

@@ -1,11 +1,10 @@
 const mongoose = require('mongoose');
-const Child = require('./child');
+const First_child = require('./child');
 
 const parent_schema = new mongoose.Schema({
 
     blog_id: {
-        type: Number,
-        required: [true, 'A tour must have a d']
+        type: mongoose.Schema.ObjectId,
     },
     user_id: {
         type: Number,

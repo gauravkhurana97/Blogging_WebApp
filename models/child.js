@@ -6,7 +6,8 @@ const child_schema = new mongoose.Schema({
     comment_id: {
         type: Number,
         required: [true, 'A tour must have a d']
-    },user_id: {
+    },
+    user_id: {
         type: Number,
         required: [true, 'A tour must have a d']
     },

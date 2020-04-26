@@ -1,5 +1,6 @@
 [{
-        "blog_id": "12345",
+
+        "blog_id": "5ea44bd7a66b824e204883c7",
         "user_id": "97",
         "comment_id": "1",
         "comment_msg": "Firstly I watch Learnex beside that I also subscribe to Let's Talk. You both are doing great work during this lockdown period. Keep educating us with your amazing contents likewise.",
@@ -7,7 +8,7 @@
         "dislikes": "2",
         "comment_parent_id": "0"
     }, {
-        "blog_id": "12345",
+        "blog_id": "5ea44bd7a66b824e204883c8",
         "user_id": "96",
         "comment_id": "2",
         "comment_msg": "Firstly I watch Learnex beside that I also subscribe to Let's Talk. You both are doing great work during this lockdown period. Keep educating us with your amazing contents likewise.",
@@ -16,7 +17,7 @@
         "comment_parent_id": "0"
     },
     {
-        "blog_id": "12345",
+        "blog_id": "5ea44bd7a66b824e204883c7",
         "user_id": "93",
         "comment_id": "3",
         "comment_msg": "Firstly I watch Learnex beside that I also subscribe to Let's Talk. You both are doing great work during this lockdown period. Keep educating us with your amazing contents likewise.",
@@ -25,7 +26,7 @@
         "comment_parent_id": "0"
     },
     {
-        "blog_id": "12345",
+        "blog_id": "5ea44bd7a66b824e204883c8",
         "user_id": "92",
         "comment_id": "4",
         "comment_msg": "Firstly I watch Learnex beside that I also subscribe to Let's Talk. You both are doing great work during this lockdown period. Keep educating us with your amazing contents likewise.",
@@ -33,7 +34,7 @@
         "dislikes": "2",
         "comment_parent_id": "0"
     }, {
-        "blog_id": "12345",
+        "blog_id": "5ea44bd7a66b824e204883c7",
         "user_id": "91",
         "comment_id": "5",
         "comment_msg": "Firstly I watch Learnex beside that I also subscribe to Let's Talk. You both are doing great work during this lockdown period. Keep educating us with your amazing contents likewise.",
