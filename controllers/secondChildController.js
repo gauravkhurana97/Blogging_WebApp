@@ -16,7 +16,6 @@ exports.getfirstComments = catchAsync(async (req, res, next) => {
 exports.getfirstComment = catchAsync(async (req, res, next) => {
 
     const commentTree = await Subchild.findById(req.params.id);
-    // .populate('nextChild');
     console.log(commentTree);
     res.status(200).json({
         status: 'success',
